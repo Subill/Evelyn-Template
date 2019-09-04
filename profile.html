@@ -62,8 +62,8 @@
      var urltoken = window.localStorage.getItem('token');
 
     Subill.BillingSettings({
-        PrivateSecretKey : "Your Secret Key",
         //Get your Private Secret key from settings in Subill Dashboard
+        PrivateSecretKey : "Your Secret Key",
         url:"https://app.subill.co",
         selector : document.getElementById('subill-management-form'),
         handleResponse : (response) => {
